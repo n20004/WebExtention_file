@@ -1,20 +1,52 @@
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 <head>
 <meta charset="utf-8">
 <meta name="description" content="ITは、すべての仕事につながる世界。IT・デジタルコンテンツを基礎から学ぶ、沖縄の専門学校! アイカレ!!">
 <title>ITカレッジ学校紹介</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="js/jquery-3.4.1.min.js"></script>
 </head>
 <body>
-<article>
-    <section>
-     <h1>サイバーセキュリティ科</h1>
-     <h2>ネットワークとセキュリティのプロを目指す</h2>
+<h1 class="it">ITカレッジ沖縄</h1>
+<div id="date">
+</div>
+<h1 class="main-style">学校紹介</h1>
+<article class="tk-1">
+    <section id="tk-1-1">
+    <a href="cyber-security.html">
+        <img src="https://www.it-college.ac.jp/2020/wp-content/themes/it-college/img/img-cys2.jpg" alt="サイバーセキュリティ科">
+        <h1>サイバーセキュリティ科</h1>
+        <p>ネットワークとセキュリティのプロを目指す</p>
+     </a>
     </section>
-    <section>
+    <section class="tk-1-2">
+    <a href="it-specialist.html">
+        <img src="https://www.it-college.ac.jp/2020/wp-content/themes/it-college/img/img-its2.jpg" alt="ITスペシャリスト科">
         <h1>ITスペシャリスト科</h1>
-        <h2>しっかり学べる三年制システム開発のエキスパートになる</h2>
+        <p>しっかり学べる三年制システム開発のエキスパートになる</p>
+    </a>
+    </section>
+    <section class="tk-1-3">
+        <img src="https://www.it-college.ac.jp/2020/wp-content/themes/it-college/img/img-gcr2.jpg" alt="ゲームクリエイター科">
+        <h1> ゲームクリエイター科</h1>
+        <p>3DCG、ゲームプログラミングを「創り」ながら「学ぶ」から「好き」なる</p>
+    </section>
+    <section class="tk-1-4">
+        <img src="https://www.it-college.ac.jp/2020/wp-content/themes/it-college/img/img-nie.jpg" alt="ITエンジニア科">
+        <h1>夜間ITエンジニア科</h1>
+        <p>短期間で高度なIT技術を修得。国家資格取得も目指す、社会人向けコース。</p>
+    </section>
+    <section class="tk-1-5">
+        <img src="https://www.it-college.ac.jp/2020/wp-content/themes/it-college/img/img-ja.jpg" alt="留学生向けコース">
+        <h1>留学生向けコース</h1>
+        <p>日本語と日本文化はもちろん、IT技術の習得で進学・就職までサポート。</p>
     </section>
 </article>
+<script>
+    const date = new Date();
+    const jpDate = date.toLocaleDateString();
+    document.querySelector('#date').innerHTML += jpDate;
+  </script>
 </body>
 </html>

@@ -1,0 +1,135 @@
+/* 
+@charset "utf-8";
+font-size:
+line-height:
+font-weight:
+text-align:
+color:
+margin:
+a:hover
+padding:
+a:active
+border:
+background:
+*/
+
+@charset "utf-8";
+/*
+font-size:
+color:
+*/
+.it {
+    font-size: 20px;    /* 文字サイズ指定 */
+    color: #ec9b03;     /* 文字色指定 */
+}
+/*
+padding:
+border:
+background:
+*/
+h1.main-style {
+	padding: 0.4em;
+	color: #010101;
+	background: #eafff3;
+    border-bottom: solid 2px #66d3c4;
+}
+.tk-1 img {
+    width: 160px;
+    height: 130px;  
+}
+
+/*
+font-weight:
+margin:
+*/
+.tk-1 h1 {
+    margin: 1em 0;
+    font-size: 140%;
+    font-weight: 600;
+}
+#tk-1-1{
+    background: #e6a720;
+	padding: 10px;
+    margin:  20px;
+    height: 279px;
+}
+#tk-1-2{
+    background: #e6a720;
+	padding: 10px;
+    margin:  20px;
+    height: 286px;
+}
+.tk-1 h2 {
+    margin: 1em 0;
+    font-size: 110%;
+    font-weight: normal;
+    width: 400px;
+}
+
+.tk-1 section {
+    float: left;
+    list-style: none;
+    width: 400px;
+    margin: 3px;
+    background: #e6a720;
+	padding: 10px;
+	margin:  20px;
+}
+.tk-1 a {
+    color:rgb(0, 0, 0);
+    }
+
+  /*a:hover*/
+.tk-1 a:hover {
+    color: red;
+  }
+  /*a:active*/
+.tk-1 a:active {
+    color: green;
+  }
+table, th, td {
+    border-collapse: collapse;
+    border: 2px solid rgb(122, 112, 112);
+    line-height: 1;
+    
+  }
+table.cb-00 th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    background: #ff9900;
+  }
+  /*line-height:*/
+.cb-0{
+    text-align: left;
+    line-height: 18px;
+    width: 900px;
+}
+
+.cb-1{
+    background: #20d9e6;
+}
+
+.cb-2{
+    background: #20d9e6;
+}
+
+.box-img,
+.box-text{
+    display: inline-block;
+    vertical-align: top;
+}
+.box{
+    background: #e6a720;
+
+}
+
+.cb-3{
+    color: #000;
+}
+#date{
+    text-align:right;
+    font-size: 90%;
+    font-weight: 250;
+}
